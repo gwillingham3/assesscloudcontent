@@ -1237,7 +1237,7 @@ h2,.h2 {
 }
 
 h3,.h3 {
-    font-size: 24px
+    font-size: 48px
 }
 
 h4,.h4 {
@@ -1400,9 +1400,35 @@ a.bg-danger:hover {
 }
 
 .page-header {
-    padding-bottom: 9px;
-    margin: 40px 0 20px;
-    border-bottom: 1px solid #eee
+    padding-bottom: 30px;
+    margin: 30px 0 30px;
+    border-bottom: 1px solid #56912F;
+	overflow: visible;
+    padding-top: 30px;
+    width: 1619px;
+    box-shadow: 0px 1px 10px 0px rgba(8,8,8,0.5);
+    margin-left: 33553034px;
+    border-top: 1px solid #56912F;
+    padding-left: 309px;
+    position: relative;
+    padding-right: 30px;
+    background-color: #6eb43f;
+    color: white;
+    background-image: url(http://i.imgur.com/47DUTW8.png);
+    float: right;
+    text-shadow: 1px 0px 2px #F1F8EC;
+    -webkit-animation: headermove 40s linear 0.05s infinite;
+	animation: headermove 40s linear 0.05s infinite;
+}
+
+@-webkit-keyframes headermove {
+    from {background-position: 0px 0px;}
+    to {background-position: 500px 500px;}
+}
+
+@keyframes headermove {
+	from {background-position: 0px 0px;}
+	to {background-position: 500px 500px;}
 }
 
 ul,ol {
