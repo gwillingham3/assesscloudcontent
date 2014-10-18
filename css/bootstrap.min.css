@@ -1108,6 +1108,7 @@ body {
     line-height: 1.42857143;
     color: #333;
     background-color: #fff
+	background-image: url(http://i.imgur.com/XlipN1a.png);
 }
 
 input,button,select,textarea {
@@ -1417,18 +1418,18 @@ a.bg-danger:hover {
     background-image: url(http://i.imgur.com/47DUTW8.png);
     float: right;
     text-shadow: 1px 0px 2px #F1F8EC;
-    -webkit-animation: headermove 40s linear 0.05s infinite;
-	animation: headermove 40s linear 0.05s infinite;
+    -webkit-animation: headermove 4000s cubic-bezier(0,0.99,1,1) 0.01s infinite;
+	animation: headermove 4000s cubic-bezier(0,0.99,1,1) 0.01s infinite;
 }
 
 @-webkit-keyframes headermove {
     from {background-position: 0px 0px;}
-    to {background-position: 500px 500px;}
+    to {background-position: 1000px 1000px;}
 }
 
 @keyframes headermove {
 	from {background-position: 0px 0px;}
-	to {background-position: 500px 500px;}
+	to {background-position: 1000px 1000px;}
 }
 
 ul,ol {
@@ -1612,8 +1613,9 @@ pre code {
     margin-left: auto
 }
 
-.container .body-content {
+.container.body-content {
 	box-shadow: 0px 1px 10px 1px rgba(10,10,10,0.5);
+	background-color: white;
 }
 
 @media (min-width: 768px) {
