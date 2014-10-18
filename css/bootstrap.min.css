@@ -1586,6 +1586,10 @@ pre code {
     margin-left: auto
 }
 
+.container .body-content {
+	box-shadow: 0px 1px 10px 1px rgba(10,10,10,0.5);
+}
+
 @media (min-width: 768px) {
     .container {
         width:750px
